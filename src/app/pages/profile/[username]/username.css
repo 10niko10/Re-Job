@@ -352,7 +352,7 @@ button[type="button"]:focus {
 
 .profile-image img {
     border-radius: 15px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     width: 150px;
     height: 150px;
     object-fit: cover;
