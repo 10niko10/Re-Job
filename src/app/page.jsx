@@ -8,18 +8,14 @@ export default function Home() {
     <>
       <Header />
       <section className={styles.hero}>
-        <img src="/hero.svg" alt="hero" />
         <div className={styles.hero_div}>
           <div className={styles.hero_text}>
             <h1>შენი უნარები</h1>
-            <h2>შენი წარმატებაა</h2>
+            <h2>შენი წარმატებაა </h2>
             <p>დაუკავშირდით საუკეთესო კლიენტებს და აჩვენეთ თქვენი პროფესიული გამოცდილება</p>
           </div>
-          <div className={styles.hero_buttons}>
-            <Link href="/pages/SignUp"><button>რეგისტრაცია</button></Link>
-            <Link href="/pages/SignIn"><button>ავტორიზაცია</button></Link>
-          </div>
         </div>
+        <img src="/hero.svg" alt="hero" />
       </section>
       <main className={styles.main}>
         <section className={styles.easy_search}>

@@ -40,7 +40,7 @@
 .navList {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 52px;
     align-items: center;
     padding: 0;
     margin: 0;
@@ -63,6 +63,7 @@
 
 .navList li {
     list-style: none;
+    font-size: 19px;
 }
 
 .navList li a {
@@ -113,6 +114,55 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.hero_buttons{
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.hero_button1{
+    background-color: white;
+    padding:  8px 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    color: rgb(10,101,204);
+    border: 2px solid rgb(191, 211, 240);
+    border-radius: 5px;
+    transition: 400ms;
+    cursor: pointer;
+
+}
+
+.hero_button1:hover{
+    background-color: rgb(115, 174, 242);
+    border: 2px solid rgb(115, 174, 242);
+    color: white;
+}
+
+.hero_button2{
+    background-color: rgb(10,101,204);
+    padding:  8px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    font-size: 17px;
+    color: white;
+    border: 2px solid rgb(10,101,204);
+    border-radius: 5px;
+    transition: 300ms;
+
+}
+
+.hero_button2:hover{
+    background-color: rgb(200, 219, 241);
+    border: 2px solid rgb(200, 219, 241);
+    color: rgb(10,101,204);
 }
 
 .vectorContainer:hover .dropdown {

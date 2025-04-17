@@ -12,12 +12,16 @@
     background-color: white;
     display: flex;
     width: 100%;
+    height: 80vh;
+    align-items: center;
     justify-content: space-between;
 }
 
 .hero img {
-    width: 100%;
+    height: 80%;
     max-width: 800px;
+    margin-right: 100px;
+    box-shadow: 12px 14px 10px gray;
 }
 
 .hero_div {
@@ -26,6 +30,7 @@
     align-items: center;
     width: 50%;
     justify-content: center;
+
 }
 
 .hero_text {
@@ -39,6 +44,7 @@
 
 .hero_text h1 {
     font-size: 80px;
+    font-weight: 100 !important;
 }
 
 .hero_text h1,
@@ -49,13 +55,17 @@
 
 .hero_text h2 {
     font-size: 64px;
+    font-weight: 100 !important;
 }
 
 .hero_text p {
     width: 100%;
     max-width: 450px;
     text-align: start;
-    font-size: 24px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(76, 75, 75);
+    font-weight: 400 !important;
 }
 
 .easy_search{
