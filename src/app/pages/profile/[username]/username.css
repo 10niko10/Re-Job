@@ -38,9 +38,11 @@
 
 .jobs-section {
     margin: 3rem 0;
+    padding: 10%;
     padding-top: 2rem;
     border-top: 2px solid #f7fafc;
     width: 100%;
+    
 }
 
 .jobs-grid {
@@ -535,3 +537,6 @@ input[type="file"] {
         grid-template-columns: 1fr;
     }
 }
+
+
+
