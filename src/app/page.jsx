@@ -19,16 +19,90 @@ export default function Home() {
       </section>
       <div className={styles.popular_jobs}>
         <div className={styles.popular_header}>
-          <h3>პოპულარული</h3>
+          <h1>პოპულარული</h1>
           <a href="#">ნახე ყველა <i class="bi bi-arrow-right"></i></a>
         </div>
         <div className={styles.popular_cards_div}>
-          <div className={styles.popular_cards}>
+          <div className={styles.popular_card}>
             <div className={styles.popular_icon}>
               <i class="bi bi-brush"></i>
             </div>
-            
+            <div className={styles.popular_text}>
+              <p>გრაფიკული დიზაინი</p>
+              <span>1 სამუშაო</span>
+            </div>
           </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-code-slash"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>დეველოპერი</p>
+              <span>12 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-megaphone"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>ციფრული მარკეტინგი</p>
+              <span>10 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-camera-reels"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>ვიდეომონტაჟი</p>
+              <span>10 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-music-note-beamed"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>მუსიკა</p>
+              <span>100 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-bar-chart-line"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>ფინანსები</p>
+              <span>21 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-heart-pulse"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>ჯანმრთელობა</p>
+              <span>8 სამუშაო</span>
+            </div>
+          </div>
+
+          <div className={styles.popular_card}>
+            <div className={styles.popular_icon}>
+            <i class="bi bi-database"></i>
+            </div>
+            <div className={styles.popular_text}>
+              <p>მონაცემთა ანალიზი</p>
+              <span>15 სამუშაო</span>
+            </div>
+          </div>
+
         </div>
       </div>
 
