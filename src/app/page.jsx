@@ -17,35 +17,22 @@ export default function Home() {
         </div>
         <img src="/hero.svg" alt="hero" />
       </section>
-      <main className={styles.main}>
-        <section className={styles.easy_search}>
-          <div className={styles.easy_search_intro}>
-            <h3>მარტივი ძებნა</h3>
-            <p>დაათვალიერეთ ათასობით პროექტი, რომელიც მორგებულია თქვენს უნარებსა და ინტერესებზე.</p>
-            <div style={{ position: 'relative', width: '500px' }}>
-              <img src="/search.svg" alt="search" />
-              <input type="search" placeholder="ძიება..." />
+      <div className={styles.popular_jobs}>
+        <div className={styles.popular_header}>
+          <h3>პოპულარული</h3>
+          <a href="#">ნახე ყველა <i class="bi bi-arrow-right"></i></a>
+        </div>
+        <div className={styles.popular_cards_div}>
+          <div className={styles.popular_cards}>
+            <div className={styles.popular_icon}>
+              <i class="bi bi-brush"></i>
             </div>
+            
           </div>
-          <div className={styles.searched}></div>
-        </section>
+        </div>
+      </div>
 
-        <section className={styles.secure_payments}>
-          <img src="/payment.svg" alt="" />
-          <div className={styles.payment_texts}>
-            <h3>უსაფრთხო გადახდები</h3>
-            <p>გადაიხადეთ უსაფრთხოდ და დროულად ჩვენი უსაფრთხო გადახდის დაცვით.</p>
-          </div>
-        </section>
 
-        <section className={styles.easy_search}>
-          <div className={styles.easy_search_intro}>
-          <h3 style={{ width: '25px' }}>პროფესიული ქსელი</h3>
-          <p>შექმენით კავშირები და გაზარდეთ თქვენი პროფესიული პორტფელი.</p> 
-          </div>
-          <div className={styles.searched}></div>
-        </section>
-      </main>
       <Footer />
     </>
   );
