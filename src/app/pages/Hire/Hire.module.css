@@ -34,18 +34,19 @@
   .posts {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     max-width: 1000px;
     padding: 40px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(243, 243, 243, 0.95);
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
   
   .jobCard {
     padding: 30px;
-    width: 45%;
+    width: 92%;
     border: none;
     border-radius: 15px;
     background: white;

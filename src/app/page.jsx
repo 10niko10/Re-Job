@@ -13,6 +13,12 @@ export default function Home() {
             <h1>შენი უნარები</h1>
             <h2>შენი წარმატებაა </h2>
             <p>დაუკავშირდით საუკეთესო კლიენტებს და აჩვენეთ თქვენი პროფესიული გამოცდილება</p>
+            <div className={styles.input_div}>
+              <i class="bi bi-search"></i>
+              <input name='search' placeholder='სამუშაო' type="text" />
+              <div className={styles.linee}></div>
+              <button>ძებნა</button>
+            </div>
           </div>
         </div>
         <img src="/hero.svg" alt="hero" />
@@ -106,6 +112,29 @@ export default function Home() {
         </div>
       </div>
 
+      <div className={styles.pro_web}>
+          <div className={styles.pro_text}>
+            <h1>პროფესიული ქსელი</h1>
+            <h2>დაამყარეთ კავშირები და განავითარეთ თქვენი პროფესიული პორტფოლიო.</h2>
+          </div>
+          <div className={styles.pro_list}>
+            <div className={styles.pro_list_row}>
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div className={styles.pro_list_row}>
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div className={styles.pro_list_row}>
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div className={styles.pro_list_row}>
+              <i class="bi bi-person-circle"></i>
+            </div>
+            <div className={styles.pro_list_row}>
+              <i class="bi bi-person-circle"></i>
+            </div>
+          </div>
+      </div>
 
       <Footer />
     </>
