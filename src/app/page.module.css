@@ -106,7 +106,7 @@
 .popular_jobs{
     display: flex;
     flex-direction: column;
-    padding: 50px 15%;
+    padding: 50px 10%;
 }
 
 .popular_header{
@@ -117,6 +117,7 @@
 
 .popular_header h1{
     font-weight: 400;
+    font-size: 35px;
 }
 
 .popular_header a{
@@ -145,7 +146,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 50px 25px;
+    padding: 5% 2%;
     gap: 40px;
     
     
@@ -166,8 +167,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 21%;
+    height: 46px;
+    width: 46px;
     font-size: 20px;
     color: rgb(10,101,204);
     border-radius: 7px;
@@ -194,7 +195,9 @@
     align-items: center;
     background-color: rgb(241,242,244);
     gap: 7%;
-    padding: 80px 0;
+    padding: 2.7%;
+    padding-bottom: 110px;
+    
 }
 
 .pro_text{
@@ -229,6 +232,352 @@
     display: flex;
     align-items: center;
     border-radius: 14px;
+    transition: 300ms;
 }
+
+
+.pro_list_row:hover{
+    background-color: rgb(217, 217, 217);
+}
+
+
+
+@media (max-width: 1300px){
+    .hero{
+        padding: 4% 0;
+    }
+
+    .hero img{
+        margin-right: 70px;
+    }
+
+    .hero h1{
+        font-size: 70px;
+    }
+    .hero h2{
+        font-size: 50px;
+    }
+
+    .popular_jobs{
+        padding: 2% 40px;
+    }
+
+    .popular_cards_div{
+        padding: 0;
+    }
+    .popular_card{
+        width: 18%;
+    }
+}
+
+@media (max-width: 1100px){
+    .hero{
+        padding: 10% 0;
+    }
+
+    .hero img{
+        margin-right: 50px;
+        height: 90%;
+    }
+    .hero_text{
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        font-size: 60px;
+    }
+    .hero h2{
+        font-size: 40px;
+    }
+    .hero p{
+        font-size: 17px;
+    }
+
+    .popular_jobs{
+        padding: 5% 40px;
+    }
+
+    .popular_cards_div{
+        padding-top: 20px;
+    }
+    .popular_card{
+        width: 18%;
+    }
+
+    .pro_text h1{
+        font-size: 40px;
+    }
+
+    .pro_text h2{
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width: 940px){
+    .hero{
+        padding: 15% 0;
+        gap: 50px;
+    }
+
+    .hero img{
+        margin-right: 35px;
+        height: 90%;
+    }
+    .hero_text{
+        margin-left: 35px;
+    }
+
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero h2{
+        font-size: 32px;
+    }
+    .hero p{
+        font-size: 15px;
+    }
+
+    .popular_jobs{
+        padding: 5% 40px;
+    }
+
+    .popular_cards_div{
+        padding-top: 20px;
+    }
+    .popular_card{
+        width: 18%;
+    }
+
+    .pro_text h1{
+        font-size: 40px;
+    }
+
+    .pro_text h2{
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width: 840px){
+    .hero{
+        padding: 0 10px;
+        gap: 12px;
+    }
+
+    .hero img{
+        margin-right: 19px;
+        height: 50%;
+    }
+    .hero_text{
+        margin-left: 19px;
+    }
+
+    .input_div{
+        height: 50px;
+        padding-left: 15px;
+        width: 250px;
+        gap: 6.5px;
+    }
+    .input_div input{
+        height: 45px;
+        width: 100px;
+    }
+
+
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero h2{
+        font-size: 27px;
+    }
+    .hero p{
+        font-size: 13px;
+    }
+
+    .popular_jobs{
+        padding: 5% 25px;
+    }
+
+    .popular_header{
+        padding: 0 8%;
+    }
+    
+    .popular_cards_div{
+        padding-top: 20px;
+    }
+    .popular_card{
+        width: 21%;
+    }
+
+    .pro_text h1{
+        font-size: 30px;
+    }
+
+    .pro_text h2{
+        font-size: 17px;
+    }
+
+    .pro_list{
+        gap: 25px;
+    }
+    
+}
+
+
+@media (max-width: 710px){
+    .hero{
+        padding: 0 8px;
+        height: 400px;
+        gap: 10px;
+    }
+
+    .hero img{
+        margin-right: 12px;
+        height: 60%;
+    }
+    .hero_text{
+        margin-left: 12px;
+    }
+
+    .input_div{
+        height: 50px;
+        padding-left: 15px;
+        width: 250px;
+        gap: 6.5px;
+    }
+    .input_div input{
+        height: 45px;
+        width: 100px;
+    }
+
+
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero h2{
+        font-size: 27px;
+    }
+    .hero p{
+        font-size: 13px;
+    }
+
+    .popular_jobs{
+        padding: 5% 25px;
+    }
+
+    .popular_header{
+        padding: 0 8%;
+    }
+    
+    .popular_cards_div{
+        padding-top: 20px;
+    }
+    .popular_card{
+        width: 21%;
+    }
+
+    .pro_text h1{
+        font-size: 30px;
+    }
+
+    .pro_text h2{
+        font-size: 17px;
+    }
+
+    .pro_list{
+        gap: 25px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 650px){
+    .hero{
+        flex-direction: column;
+        padding: 0;
+        height: 550px;
+        gap: 10px;
+        padding-bottom: 130px;
+    }
+
+    .hero img{
+        height: 60%;
+    }
+
+    .input_div{
+        height: 50px;
+        padding-left: 15px;
+        width: 250px;
+        gap: 6.5px;
+    }
+    .input_div input{
+        height: 45px;
+        width: 100px;
+    }
+
+
+    .hero h1{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .hero h2{
+        font-size: 24px;
+    }
+    .hero p{
+        font-size: 13px;
+    }
+
+    .popular_jobs{
+        padding: 5% 25px;
+    }
+
+    .popular_header{
+        padding: 0 6%;
+    }
+
+    .popular_header h1{
+        font-size: 26px;
+    }
+    
+    .popular_cards_div{
+        padding-top: 20px;
+    }
+    .popular_card{
+        width: 40%;
+    }
+
+    .pro_web{
+        padding: 7%;
+        flex-direction: column;
+    }
+
+    .pro_text{
+        width: 90%;
+    }
+
+    .pro_text h1{
+        font-size: 30px;
+    }
+
+    .pro_text h2{
+        font-size: 17px;
+    }
+
+    .pro_list{
+        width: 90%;
+        gap: 25px;
+    }
+    
+}
+
+
+
+
+
+
+
 
 

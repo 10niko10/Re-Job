@@ -91,13 +91,41 @@
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .navList {
         gap: 16px;
+    }
+
+    .navList li a{
+        font-size: 15px;
     }
     
     .nav {
         padding: 0 16px;
+    }
+}
+@media (max-width: 650px) {
+
+    .logoLink img{
+        width: 60px;
+        height: 20px;
+    }
+
+    .navList {
+        gap: 7px;
+    }
+
+    .navList li a{
+        font-size: 12px;
+    }
+    
+    .nav {
+        padding: 0 16px;
+    }
+
+    .vectorContainer img{
+        width: 25px;
+        height: 25px;
     }
 }
 
