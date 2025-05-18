@@ -26,7 +26,7 @@ export default function Home() {
       <div className={styles.popular_jobs}>
         <div className={styles.popular_header}>
           <h1>პოპულარული</h1>
-          <a href="#">ნახე ყველა <i class="bi bi-arrow-right"></i></a>
+          <a href="/pages/Hire">ნახე ყველა <i class="bi bi-arrow-right"></i></a>
         </div>
         <div className={styles.popular_cards_div}>
           <div className={styles.popular_card}>

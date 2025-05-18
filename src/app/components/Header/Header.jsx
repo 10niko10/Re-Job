@@ -7,10 +7,10 @@ import { useRouter } from 'next/navigation'
 export default function Header() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const [user, setUser] = useState(null);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
 
     useEffect(() => {
-        // Check if user data exists in localStorage
         const userData = localStorage.getItem('user');
         if (userData) {
             setUser(JSON.parse(userData));
@@ -23,13 +23,18 @@ export default function Header() {
         router.push('/');
     };
 
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
                 <Link href="/" className={styles.logoLink}>
                     <img src='/logo.png' alt="logo" />
                 </Link>
-                <ul className={styles.navList}>
+                <i className="bi bi-list" onClick={toggleMenu}></i>
+                <ul className={`${styles.navList} ${isMenuOpen ? styles.navListOpen : ''}`}>
                     <li><Link href=''>სამუშაოს პოვნა</Link></li>
                     <li><Link href='/pages/Hire'>დაქირავება</Link></li>
                     <li><Link href=''>როგორ მუშაობს</Link></li>
